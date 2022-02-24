@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_to_do_task
+    driver-class-name: com.mysql.jdbc.Driver
